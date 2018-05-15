@@ -3,7 +3,7 @@ Name|Description|Notes
 ---|---|---
 [ApateDNS](https://www.fireeye.com/services/freeware/apatedns.html)|A tool for controlling DNS responses though an easy-to-use GUI. As a phony DNS server, ApateDNS spoofs DNS responses to a user-specified IP address by listening on UDP port 53 on the local machine. ApateDNS also automatically sets the local DNS to localhost. Upon exiting the tool, it sets back the original local DNS settings.
 [APTSimulator](https://github.com/NextronSystems/APTSimulator)|Windows Batch script that uses a set of tools and output files to make a system look as if it was compromised.|
-[DumpIt](https://blog.comae.io/your-favorite-memory-toolkit-is-back-f97072d33d5c)|Enables physical memory acquisition on Windows, in either a raw memory dump or as a Microsoft crash dump 
+[DumpIt/Comae Toolkit](https://blog.comae.io/your-favorite-memory-toolkit-is-back-f97072d33d5c)|Enables physical memory acquisition on Windows, in either a raw memory dump or as a Microsoft crash dump 
 [FakeNet](https://practicalmalwareanalysis.com/fakenet/)| Redirects all traffic leaving a machine to the localhost (including hard-coded IP traffic and DNS traffic) and implements several protocols to ensure that malicious code continues to execute and can be observed by an analyst
 [FastIR Collector](https://github.com/SekoiaLab/Fastir_Collector)|Tool that collects different artefacts on live Windows systems and records the results in csv files. With the analyses of these artefacts, an early compromise can be detected|
 [Hexinator](https://hexinator.com/)|Hex editor
