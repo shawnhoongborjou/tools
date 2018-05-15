@@ -1,7 +1,19 @@
-# tools
+# Tools
 Name|Description|Notes
 ---|---|---
+[ApateDNS](https://www.fireeye.com/services/freeware/apatedns.html)|A tool for controlling DNS responses though an easy-to-use GUI. As a phony DNS server, ApateDNS spoofs DNS responses to a user-specified IP address by listening on UDP port 53 on the local machine. ApateDNS also automatically sets the local DNS to localhost. Upon exiting the tool, it sets back the original local DNS settings.
 [APTSimulator](https://github.com/NextronSystems/APTSimulator)|Windows Batch script that uses a set of tools and output files to make a system look as if it was compromised.|
+[DumpIt](https://blog.comae.io/your-favorite-memory-toolkit-is-back-f97072d33d5c)|Enables physical memory acquisition on Windows, in either a raw memory dump or as a Microsoft crash dump 
+[FakeNet](https://practicalmalwareanalysis.com/fakenet/)| Redirects all traffic leaving a machine to the localhost (including hard-coded IP traffic and DNS traffic) and implements several protocols to ensure that malicious code continues to execute and can be observed by an analyst
 [FastIR Collector](https://github.com/SekoiaLab/Fastir_Collector)|Tool that collects different artefacts on live Windows systems and records the results in csv files. With the analyses of these artefacts, an early compromise can be detected|
+[Hexinator](https://hexinator.com/)|Hex editor
 [Loki](https://github.com/Neo23x0/Loki)|Scanner for simple Indicators of Compromise|
+[Memoryze](https://www.fireeye.com/services/freeware/memoryze.html)|Memory forensic software that helps incident responders find evil in live memory. Memoryze can acquire and/or analyze memory images, and on live systems, can include the paging file in its analysis
+[PeStudio](https://www.winitor.com/)|tool for analyzing Portable Executable (PE) files. Provides information such as what functions/APIs are being called, imported libraries, VirusTotal information if it's currently in their database, strings found in the specimen, packer used (if any) and so on
+[Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)|part of the SysInternals Suite from Microsoft. This is essentially a “Task Manager on Steroids” and includes a lot of great features to identify rogue processes spawned by malware.
+[Process Monitor](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)|ProcessMonitor allows you to track I/O operations on the machine and view what's happening to your registry, file system, processes. It also provides some basic network information (useful for if your packet capture from Wireshark is HUGE and you need a bit of help).
 [PSRecon](https://github.com/gfoss/PSRecon)|Gathers data from a remote Windows host using PowerShell (v2 or later), organizes the data into folders, hashes all extracted data, hashes PowerShell and various system properties, and sends the data off to the security team. The data can be pushed to a share, sent over email, or retained locally.|Run in PowerShell (launch with windows+x) PSRecon requires unrestricted script execution policy, check with "Get-ExecutionPolicy", change with "Set-ExecutionPolicy unrestricted"
+[RegShot](https://sourceforge.net/projects/regshot/)|Tool for taking snapshots of the machine's registry allowing comparison before and after infection
+[Resource Hacker](http://www.angusj.com/resourcehacker/)|Resource hacker allows you team to feed in a file (an executable for example) and it will then break that file down into the resources that make up the file. This is useful for extracting malicious files that have been embedded within another file. 
+[Volatility Framework](http://www.volatilityfoundation.org/)|Advanced memory forensics framework
+[Wireshark](https://www.wireshark.org/)|pPacket analysis tool for monitoring any additional payloads our malware specimen may be attempting to download
